@@ -1,3 +1,5 @@
+# Galaxy-in-the-cloud-with-a-fair-heart
+Project for the Bioinformatics Minor from Avans U
 # Requirements
 ### Ansible
 Ansible needs to be installed on the machine where you will intall Galaxy

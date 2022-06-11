@@ -5,6 +5,7 @@ The VM needs to have:
 - At least 4GB RAM
 - Preferably running Ubuntu 18.04 - 20.04.
 
+
 ## Ansible
 Ansible needs to be installed on the machine where you will install Galaxy.
 
@@ -24,6 +25,7 @@ The version can be checked by running the following command:
 ```
 ansible --version
 ```
+
 
 ## Other requirements
 Besides having Ansible installed, it is expected that:

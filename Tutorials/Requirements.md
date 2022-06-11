@@ -11,6 +11,7 @@ $ sudo apt install ansible
 ```
 
 As of May 31 2022, the Ansible version needs to be >=2.7.
+
 The version can be checked by running the following command:
 
 ```

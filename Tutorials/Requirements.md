@@ -1,7 +1,7 @@
 # Requirements for installing Galaxy with Ansible
 ## VM requirements
 The VM needs to have:
-- At least 2 v(irtual)CPU
+- At least 2 vCPU
 - At least 4GB RAM
 - Preferably running Ubuntu 18.04 - 20.04.
 

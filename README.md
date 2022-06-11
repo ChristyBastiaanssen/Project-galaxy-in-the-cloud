@@ -10,3 +10,20 @@ Project for the Bioinformatics Minor from Avans University of Applied Sciences. 
 ![image](https://user-images.githubusercontent.com/80160380/168887779-b87bd891-84c1-4d9f-992f-8bbcc45699f1.png)
 
 *Figure 2. Flowchart of the RNA sequencing analysis pipeline. The pipeline starts with a FastQ format file of which the quality will be checked by FastQC and the low quality reads and adapters will be removed by cutadapt. Next, the reads are mapped against a reference genome using HISAT2. After mapping, featureCounts will be used to see which genes are active. Limma-Voom will then be used for the identification of the differentially expressed features and Goseq will be used to perform gene ontology analysis. To visualise the results, a heatmap and a volcano-plot will be made. Lastly, all of the obtained data will be combined in one single file by using the MultiQC tool.*
+
+# Requirements
+### Ansible
+Ansible needs to be installed on the machine where you will intall Galaxy
+For example when using Ubuntu as the OS:
+
+```
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+```
+
+
+### Sources
+https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#installing-galaxy 
+https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html 

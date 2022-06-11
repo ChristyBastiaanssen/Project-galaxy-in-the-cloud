@@ -45,5 +45,5 @@ python3 -V
 
 
 ### Sources
-https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html 
+https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html <br>
 https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#installing-galaxy 

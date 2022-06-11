@@ -1,6 +1,8 @@
 # Requirements for installing Galaxy with Ansible
 ## Ansible
 Ansible needs to be installed on the machine where you will install Galaxy.
+
+Ansible can be installed by following the installation guide from the Ansible Documentation.
 For example when using Ubuntu as the OS:
 
 ```
@@ -35,5 +37,5 @@ python3 -V
 
 
 ### Sources
-https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#installing-galaxy 
 https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html 
+https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#installing-galaxy 

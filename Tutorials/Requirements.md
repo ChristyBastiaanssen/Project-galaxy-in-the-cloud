@@ -1,5 +1,5 @@
 # Requirements
-### Ansible
+## Ansible
 Ansible needs to be installed on the machine where you will intall Galaxy
 For example when using Ubuntu as the OS:
 

@@ -31,7 +31,7 @@ ansible --version
 Besides having Ansible installed, it is expected that:
 - There is an inventory file with the VM or host specified where you will deploy Galaxy.
 - The VM has a public DNS name.
-- The full DNS hostname is written in the inventory file and not localhost. 
+- The full DNS hostname is written in the inventory file and not 'localhost'. 
 - The following ports are exposed:
 1. 22 for SSH, this can be a different port or via VPN or similar.
 2. 80 for HTTP, this needs to be available to the world if you want to follow the LetsEncrypt portion of the tutorial.

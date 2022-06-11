@@ -2,7 +2,7 @@
 ## Ansible
 Ansible needs to be installed on the machine where you will install Galaxy.
 
-Ansible can be installed by following the installation guide from the Ansible Documentation.
+Ansible can be installed by following the installation guide from the Ansible documentation.
 For example when using Ubuntu as the OS:
 
 ```

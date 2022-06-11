@@ -1,0 +1,15 @@
+#Requirements
+###Ansible
+Ansible needs to be installed on the machine where you will intall Galaxy
+For example when using Ubuntu as the OS:
+```
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+```
+
+
+###Sources
+https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#installing-galaxy 
+https://docs.ansible.com/ansible/2.9/installation_guide/intro_installation.html 

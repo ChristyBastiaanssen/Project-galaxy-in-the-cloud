@@ -2,7 +2,8 @@
 The first ting to do when connected to the VM is to install the needed dependencies. <br>
 This will be done as followed.
 
-In the home folder ```mkdir galaxy``` <br>
+(In the home folder) <br>
+```mkdir galaxy``` <br>
 ```cd galaxy``` <br>
 Create a new file in the working direectory called 'requirements.yml' <br>
 ```nano requirements.yml```

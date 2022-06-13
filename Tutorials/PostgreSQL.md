@@ -23,6 +23,8 @@ postgresql_objects_databases:
 postgresql_backup_dir: /data/backups
 postgresql_backup_local_dir: "{{ '~postgres' | expanduser }}/backups"
 ```
+<br>
+
 
 
 ```nano galaxy.yml```
@@ -42,7 +44,9 @@ Add the following to the file:
     - role: natefoo.postgresql_objects
       become: true
       become_user: postgres
-```
+``` 
+<br>
+
 
 
 To view what the directory looks like by now, use the following command: <br>

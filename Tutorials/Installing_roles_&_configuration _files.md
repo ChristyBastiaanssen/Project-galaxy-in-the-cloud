@@ -1,4 +1,4 @@
-# Required dependencies 
+# Requirements
 The first ting to do when connected to the VM is to install the needed dependencies. <br>
 This will be done as followed.
 

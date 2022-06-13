@@ -24,8 +24,7 @@ postgresql_backup_dir: /data/backups
 postgresql_backup_local_dir: "{{ '~postgres' | expanduser }}/backups"
 ```
 <br>
-
-
+<br>
 
 ```nano galaxy.yml```
 
@@ -46,8 +45,7 @@ Add the following to the file:
       become_user: postgres
 ``` 
 <br>
-
-
+<br>
 
 To view what the directory looks like by now, use the following command: <br>
 ```tree -L 2```

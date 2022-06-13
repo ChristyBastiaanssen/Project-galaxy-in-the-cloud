@@ -68,8 +68,6 @@ The directory should approximately look like this:
     ├── uchida.miniconda
     └── usegalaxy_eu.certbot
 ```
-<br>
-<br>
 
 Now run the playbook: <br>
 ```ansible-playbook galaxy.yml```

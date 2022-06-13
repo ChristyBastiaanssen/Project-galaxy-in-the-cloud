@@ -1,5 +1,5 @@
 # PostgreSQL
-Inleidende zin
+This tutorial shows how to install PostgreSQL. 
 
 ```cd galaxy``` <br>
 ```mkdir group_vars``` <br>
@@ -77,12 +77,12 @@ Now run the playbook: <br>
 <br>
 
 ## Inspect the changes
-To inspect the changes that have been medo to the Galaxy server, run the following command: <br>
+To inspect the changes that have been medo to the Galaxy server: <br>
 ```sudo -u postgres psql -l```
 <br>
 <br>
 
-To access postgres and list some users, use the following command: <br>
+To access postgres and list some users: <br>
 ```sudo -u postgres psql```
 <br>
 <br>

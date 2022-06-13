@@ -1,10 +1,13 @@
 # Required dependencies 
-The first ting to do when connected to the VM is to install the needed dependencies.
+The first ting to do when connected to the VM is to install the needed dependencies. <br>
+This will be done as followed.
 
-The first step of installing the dependencies is to create a new directory called ```galaxy``` in the home folder. <br>
-After this ```cd``` in that directory. <br>
-Create a new file called ```requirements.yml``` in the working directory and include the following contents:
+In the home folder ```mkdir galaxy``` <br>
+```cd galaxy``` <br>
+Create a new file in the working direectory called 'requirements.yml' <br>
+```nano requirements.yml```
 
+Add the following to the file:
 ```
 requirements.yml
 - src: galaxyproject.galaxy

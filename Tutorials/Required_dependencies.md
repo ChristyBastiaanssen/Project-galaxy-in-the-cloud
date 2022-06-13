@@ -1,4 +1,4 @@
-#Required dependencies 
+# Required dependencies 
 The first ting to do when connected to the VM is to install the needed dependencies.
 
 The first step of installing the dependencies is to create a new directory called ```galaxy``` in the home folder.

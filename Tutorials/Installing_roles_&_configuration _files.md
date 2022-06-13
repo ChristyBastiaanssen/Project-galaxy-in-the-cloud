@@ -58,7 +58,7 @@ Add the following to the file:
 X* ansible_connection=local ansible_user=ubuntu
 ```
 
-For 'X' state the web-url or IP adress of the host were Galaxy will be installed. 
+*For 'X' state the web-url or IP adress of the host were Galaxy will be installed. 
 
 ### Sources
 https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements 

@@ -25,7 +25,7 @@ postgresql_backup_local_dir: "{{ '~postgres' | expanduser }}/backups"
 ```
 
 
-```nano galaxy.ymlm```
+```nano galaxy.yml```
 
 Add the following to the file: 
 ```

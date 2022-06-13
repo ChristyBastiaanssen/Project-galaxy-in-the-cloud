@@ -32,7 +32,7 @@ Install the requirements by running ```ansible-galaxy install -p roles -r requir
 
 
 ## Configuration files
-Create a new file in the working directory (the galaxy directory) called 'ansible.cfg'. <br>
+Create a new file in the working directory (the previously made 'galaxy' directory) called 'ansible.cfg'. <br>
 ```nano ansible.cfg```
 
 Add the following to the file:
@@ -49,3 +49,16 @@ When connecting over SSH add the following to the file:
 pipelining = true
 ```
 
+Create a new file in the working directory called 'hosts'. <br>
+```nano hosts```
+
+Add the following to the file:
+```
+[galaxyservers]
+X* ansible_connection=local ansible_user=ubuntu
+```
+
+For 'X' state the web-url or IP adress of the host were Galaxy will be installed. 
+
+### Sources
+https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#requirements 

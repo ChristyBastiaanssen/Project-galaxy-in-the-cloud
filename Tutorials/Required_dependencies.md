@@ -1,8 +1,8 @@
 # Required dependencies 
 The first ting to do when connected to the VM is to install the needed dependencies.
 
-The first step of installing the dependencies is to create a new directory called ```galaxy``` in the home folder.
-After this ```cd``` in that directory. 
+The first step of installing the dependencies is to create a new directory called ```galaxy``` in the home folder. <br>
+After this ```cd``` in that directory. <br>
 Create a new file called ```requirements.yml``` in the working directory and include the following contents:
 
 ```

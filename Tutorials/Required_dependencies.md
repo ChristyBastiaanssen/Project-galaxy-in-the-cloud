@@ -2,15 +2,16 @@
 The first ting to do when connected to the VM is to install the needed dependencies. <br>
 This will be done as followed.
 
+## Installing roles
 (In the home folder) <br>
 ```mkdir galaxy``` <br>
 ```cd galaxy``` <br>
-Create a new file in the working direectory called 'requirements.yml' <br>
+
+Create a new file in the working directory called 'requirements.yml'. <br>
 ```nano requirements.yml```
 
 Add the following to the file:
 ```
-requirements.yml
 - src: galaxyproject.galaxy
   version: 0.9.16
 - src: galaxyproject.nginx
@@ -28,3 +29,23 @@ requirements.yml
 ```
 
 Install the requirements by running ```ansible-galaxy install -p roles -r requirements.yml```
+
+
+## Configuration files
+Create a new file in the working directory (the galaxy directory) called 'ansible.cfg'. <br>
+```nano ansible.cfg```
+
+Add the following to the file:
+```
+[defaults]
+interpreter_python = /usr/bin/python3
+inventory = hosts
+retry_files_enabled = false
+```
+
+When connecting over SSH add the following to the file: 
+```
+[ssh_connection]
+pipelining = true
+```
+

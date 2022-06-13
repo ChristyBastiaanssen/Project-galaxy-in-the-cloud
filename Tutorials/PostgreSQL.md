@@ -68,6 +68,27 @@ The directory should approximately look like this:
     ├── uchida.miniconda
     └── usegalaxy_eu.certbot
 ```
+<br>
+<br>
+
+Now run the playbook: <br>
+```ansible-playbook galaxy.yml```
+<br>
+<br>
+
+## Inspect the changes
+To inspect the changes that have been medo to the Galaxy server, run the following command: <br>
+```sudo -u postgres psql -l```
+<br>
+<br>
+
+To access postgres and list some users, use the following command: <br>
+```sudo -u postgres psql```
+<br>
+<br>
+
+To inspect the postgres directory: <br>
+```ls /etc/postgresql/*/main/```
 
 ### Sources
 https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html#log-in-to-galaxy

@@ -1,0 +1,61 @@
+```
+install_tool_dependencies: True
+install_repository_dependencies: True
+install_resolver_dependencies: True
+
+tools:
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 3d0c7bdf12f5
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: cutadapt
+  owner: lparsons
+  revisions:
+  - 02c5a84971c8
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: hisat2
+  owner: iuc
+  revisions:
+  - 6c19daec423d
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - 38b6d12edc68
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: multiqc
+  owner: iuc
+  revisions:
+  - 9a913cdee30e
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: limma_voom
+  owner: iuc
+  revisions:
+  - d6f5fa4ee473
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: goseq
+  owner: iuc
+  revisions:
+  - ef2ad746b589
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: heatmap
+  owner: ethevenot
+  revisions:
+  - b1667c118127
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: volcanoplot
+  owner: iuc
+  revisions:
+  - 83c573f2e73c
+  tool_panel_section_label: RNAseq
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+```

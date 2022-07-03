@@ -1,0 +1,2 @@
+[galaxyservers]
+gat-avans.oz.galaxy.training ansible_connection=local ansible_user=ubuntu

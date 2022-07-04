@@ -13,6 +13,7 @@ The first step of building the Galaxy server is the creation of a VM in the SURF
 * PostgreSQL for the database
 * uWSGI Mules for the processing of Galaxy jobs
 * NGINX for automatically compressing selected content, making it easy to apply caching headers to specific types of content and providing authentication. <br>
+
 After the Galaxy server is up and running, the RNA-sequencing tools will be installed with Ephemeris. 
 <br>
 

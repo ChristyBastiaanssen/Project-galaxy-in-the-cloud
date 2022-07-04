@@ -3,8 +3,8 @@ Project for the Bioinformatics Minor from Avans University of Applied Sciences. 
 
 This Github page provides the following:
 * An overview of the project.
-* Tutorials for setting up a Galaxy server with Ansible. [Tutorials](Tutorials) 
-* Some example files. [Galaxy](Galaxy) 
+* Tutorials for setting up a Galaxy server with Ansible. ([Tutorials](Tutorials)) 
+* Some example files. ([Galaxy](Galaxy)) 
 * An RNA-sequencing analysis pipeline.
 
 ## Overview of the project.

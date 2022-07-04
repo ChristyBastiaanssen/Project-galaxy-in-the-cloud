@@ -12,7 +12,7 @@ This Github page provides the following:
 The first step of building the Galaxy server is the creation of a VM in the SURF research cloud. After the VM is created and can be accessed, Ansible needs to be installed, since Galaxy is depended on Ansible for its deployment. After the installation is complete, a Galaxy server and multiple requirements can be installed with Ansible. These are:
 * PostgreSQL for the database
 * uWSGI Mules for the processing of Galaxy jobs
-* NGINX for automatically compressing selected content, making it easy to apply caching headers to specific types of content and providing authentication
+* NGINX for automatically compressing selected content, making it easy to apply caching headers to specific types of content and providing authentication. <br>
 After the Galaxy server is up and running, the RNA-sequencing tools will be installed with Ephemeris. 
 <br>
 
